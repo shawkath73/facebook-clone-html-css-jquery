@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up for Facebook</title>
+    
+    <link href="fb2.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="download.svg" size="32x32">
+    
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <img class="image" src="fb.svg" onclick="window.location.href='index2.html'">
+    <div class="container">
+        <p class="account">Create a new account</p>
+        <p class="quick">It's quick and easy.</p><hr>
+        <form class="newform" id="myform">
+            <input class="fname" type="text" placeholder="First name" required>
+            <input class="fname" id="sname" type="text" placeholder="Surname" required>
+        <p class="dob">Date of birth
+            <span>
+                <span class="qn-mark">?</span>
+        </p>
+        <div class="=dob-container">
+        <select class="st1" id="day"></select>
+        <select class="st1 st" id="month"></select>
+        <select class="st1 stt" id="year"></select>
+        </div>
+          <p class="dob" id="gen">Gender
+            <span>
+                <span class="qn-mark">?</span>
+        </p>
+        <label class="female">
+            <span>Female</span>
+        <input type="radio" class="fem" name="gender" value="female"></label>
+
+        <label class="female" id="male">
+            <span>Male</span>
+        <input type="radio" class="fem" id="mal" name="gender" value="male"></label>
+
+        <label class="female" id="others">
+            <span>Custom</span>
+        <input type="radio" id="cus" class="fem" name="gender" value="custom"></label>
+
+            <input  class="mob" type="text" placeholder="Mobile number or email address">
+            <input  class="mob" id="new-pass" type="text" placeholder="New password">
+
+        <p class="par">People who use our service may have uploaded your contact information to<br>Facebook.<span class="uline" style="color: #385898">Learn more</span></p>
+        <p class="par">By clicking Sign Up, you agree to our <span class="uline" style="color: #385898">Terms</span>,<span class="uline" style="color: #385898">Privacy Policy </span>and <span class="uline" style="color: #385898">Cookies Policy</span>.<br>You may receive SMS notifications from us and can opt out at any time</p>
+
+            <input class="sign-button" type="button" value="Sign up" onclick="window.location.href='index2.html';">
+        </form>
+        <a class="aha" href="index.html">Already have an account?</a>
+    </div>
+
+    <div class="footer">
+        <div class="language">
+            <span class="lang" style="color: #737373;">English (UK)</span>
+            <span class="lang">മലയാളം</span>
+            <span class="lang">தமிழ்</span>
+            <span class="lang">ಕನ್ನಡ</span>
+            <span class="lang">हिन्दी</span>
+            <span class="lang">اردو</span>
+            <span class="lang">বাংলা&</span>
+            <span class="lang">తెలుగు</span>
+            <span class="lang">Español</span>
+            <span class="lang">Português (Brasil)</span>
+            <span class="lang">Français (France)</span>
+            <div class="image-box" onclick="window.location.href='errorpage.html';">
+                <a href="errorpage.html"><img class="image2" src="add.png"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="language2">
+            <span class="lang" id="lang2">Sign Up</span>
+            <span class="lang" id="lang2">Log in</span>
+            <span class="lang" id="lang2">Messenger</span>
+            <span class="lang" id="lang2">Facebook Lite</span>
+            <span class="lang" id="lang2">Video</span>
+            <span class="lang" id="lang2">Meta Pay</span>
+            <span class="lang" id="lang2">Meta Store</span>
+            <span class="lang" id="lang2">Meta Quest</span>
+            <span class="lang" id="lang2">Ray-Ban Meta</span>
+            <span class="lang" id="lang2">Meta AI</span>
+            <span class="lang" id="lang2">Instagram</span>
+            <span class="lang" id="lang2">Threads</span>
+        </div>
+        <div class="language3">
+            <span class="lang" id="lang2">Voting Information Centre</span>
+            <span class="lang" id="lang2">Privacy Policy</span>
+            <span class="lang" id="lang2">Privacy Centre</span>
+            <span class="lang" id="lang2">About</span>
+            <span class="lang" id="lang2">Create ad</span>
+            <span class="lang" id="lang2">Create Page</span>
+            <span class="lang" id="lang2">Developers</span>
+            <span class="lang" id="lang2">Careers</span>
+            <span class="lang" id="lang2">Cookies</span>
+            <span class="lang" id="lang2">AdChoices</span>
+            <img class="adimage" src="adchoices.svg" onclick="window.location.href='errorpage.html';">&nbsp;&nbsp;
+            <span class="lang" id="lang2">Terms</span>
+            <span class="lang" id="lang2">Help</span>
+        </div>
+        <span class="lang" id="lang3">Contact uploading and non-users</span>
+        <p class="meta">Meta © 2025</p>
+    </div>
+     <span class="txt"><strong>Providing your birthday</strong> helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your profile. For more details, please visit our Privacy Policy.</span>
+            </span>
+            <span class="txt" id="gender-txt">You can change who sees your gender on your profile later. Select Custom to choose another gender, or if you'd rather not say.</span>       
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="jscript.js"></script>
+        </body>
+</html>

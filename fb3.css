@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(159deg, rgba(8,146,208,1) 0%, rgba(75,0,130,1) 100%);
+  font-family: sans-serif;
+  color: white;
+}
+
+.newcontainer
+{
+    margin-top: 10px;
+    align-content: center;
+    justify-items: center;
+}
+
+#par1
+{
+    font-size: 90px;
+}
+
+#par2
+{
+    font-size: 40px;
+}
+
