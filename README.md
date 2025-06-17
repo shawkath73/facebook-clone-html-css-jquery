@@ -20,6 +20,7 @@ A front-end Facebook login page clone built with HTML, CSS, and jQuery. This pro
 
 🔗 [fb-clone](https://shawkath73.github.io/facebook-clone-html-css-jquery/)
 
+🤝 Contributions
 Contributions and issues are always welcome!
 
 
